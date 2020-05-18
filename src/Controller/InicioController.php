@@ -13,7 +13,6 @@ class InicioController extends AbstractController
     public function index()
     {
         return $this->render('default/default.html.twig');
-
     }
 
     /**
