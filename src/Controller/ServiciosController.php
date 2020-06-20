@@ -14,7 +14,7 @@ class ServiciosController extends AbstractController
      */
     public function index()
     {
-        $titulo = 'Terminator 2';
+        $titulo = 'Titanic';
         str_replace(" ", "+", $titulo);
         $url = "http://www.omdbapi.com/?t=" . urldecode($titulo) . "&apikey=ad753c30";
         print_r($url);
